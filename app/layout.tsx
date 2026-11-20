@@ -8,8 +8,8 @@ export default function RootLayout({ children }: {children: React.ReactNode}) {
           <Link href="/">home</Link>
           {" | "}
           <Link href="/blogs">blogs</Link>
-          {/* {" | "} */}
-          {/* <Link href="/blogs/new">create new</Link> */}
+          {" | "}
+          <Link href="/blogs/new">create new</Link>
         </nav>
         {children}
       </body>
