@@ -44,7 +44,8 @@ const blogs = [
 ];
 
 export const getBlogs = () => {
-    return blogs
+  blogs.sort((a, b) => b.likes - a.likes);
+  return blogs
 }
 
 export const getBlogById = (id: number) => {
